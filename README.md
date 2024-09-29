@@ -74,7 +74,7 @@ interface Person {
 }
 
 let user: Person = {
-  name: "Alice",
+  name: "Ramesh",
   age: 30,
 };
 ```
@@ -126,7 +126,7 @@ interface Employee extends Person {
 
 // Usage
 const john: Employee = {
-  name: "John Doe",
+  name: "Ramesh",
   age: 30,
   employeeId: 12345,
   department: "IT",
@@ -154,7 +154,7 @@ let octal: number = 0o744;
 The string type represents textual data.
 
 ```typescript
-let singleQuote: string = "Hello";
+let singleQuote: string = 'Hello';
 let doubleQuote: string = "World";
 let templateLiteral: string = `Hello, ${singleQuote}!`;
 ```
